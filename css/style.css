@@ -1,0 +1,60 @@
+/*
+font-family: 'Dosis', sans-serif;
+font-family: 'Lato', sans-serif;
+ font-family: 'Sniglet', cursive; 
+ */
+
+/* header start */
+header{
+    background: #ffd338;
+}
+.menu ul li a{
+    font-size: 18px;
+    font-weight: 700;
+    color: white !important;
+    padding: 3px 20px !important;
+    border-radius: 15px;
+
+}
+.menu ul li a:hover{
+    background-color: #f05c5c;
+}
+
+
+.d-user a , .d-search a{
+    color: white;
+}
+.d-user a:hover , .d-search a:hover{
+    color: #f05c5c;
+
+}
+.d-user a:focus , .d-search a:focus{
+    box-shadow: 0 0 0 0.25rem rgb(241 92 92);
+}
+.d-user ul , .d-search ul{
+
+    background-color:#ffd338 ; 
+}
+.d-user ul{
+    top: 165%;
+    left: -110px;
+}
+.d-search ul{
+    top: 165%;
+    left: -278px;
+    min-width: 370px;
+}
+input.form-control {
+    margin-left: 14px;
+    padding: 10px;
+}
+button {
+    margin-left: 5px;
+    padding: 8px 23px;
+    border: none;
+
+}
+.navbar-light .navbar-toggler {
+    border: 2px solid  #f05c5c !important ;
+}
+/* header end */

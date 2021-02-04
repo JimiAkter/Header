@@ -1,0 +1,112 @@
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+    /* header start */
+    a img {
+        width: 112px;
+    }
+
+    .menu ul li a {
+        padding: 3px 12px !important;
+    }
+    .menu ul li a:hover{
+        background: transparent;
+        color:  #f05c5c !important;
+    }
+    .d-user ul{
+        top: 105%;
+        left: 0;
+    }
+    .d-search ul{
+        min-width: 193px;
+        top: 105%;
+        left: 0;
+    }
+    button {
+        margin-left: -4px;
+        padding: 9px 15px;
+    }
+    input.form-control {
+        margin-left: 4px;}
+    /* header end */
+   
+ }
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    /* header start */
+       .menu ul li a {
+        padding: 3px 12px !important;
+    }
+    .menu ul li a:hover{
+        background: transparent;
+        color:  #f05c5c !important;
+    }
+    a img {
+        width: 129px;
+    }
+    .navbar-light .navbar-toggler {
+        border: 2px solid  #f05c5c !important ;
+ 
+    }
+    .d-user ul{
+        top: 105%;
+        left: 0;
+    }
+    .d-search ul{
+        top: 105%;
+        left: 0;
+    }
+    /* header end */
+   
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+      
+    /* header start */
+    .menu ul li a {
+        padding: 3px 12px !important;
+    }
+    .menu ul li a:hover{
+        background: transparent;
+        color:  #f05c5c !important;
+    }
+    a img {
+        width: 150px;
+    }
+    .navbar-light .navbar-toggler {
+        border: 2px solid  #f05c5c !important ;
+    }
+    .d-user ul{
+        top: 105%;
+        left: 0;
+    }
+    .d-search ul{
+        top: 105%;
+        left: 0;
+    }
+    /* header end */
+  
+
+
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    /* banner start */
+    .b-content h1{
+        margin-top: 180px;
+        margin-bottom: 190px;
+    }
+    /* banner end */
+
+ }
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+ 
+ }
+ /* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1400px) { 
+    
+    }
